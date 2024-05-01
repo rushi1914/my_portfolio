@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Saira Condensed";
+    /* background-color: #EDF1FD; */
+    background-color: white;
+  }
+  .h3{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 40vh;
+  }
+.hyper{
+    color: black;
+    top: 20vh;
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  margin: 0px 690px;
+}
+.hyper:hover{
+    cursor: pointer;
+    color: red;
+}
